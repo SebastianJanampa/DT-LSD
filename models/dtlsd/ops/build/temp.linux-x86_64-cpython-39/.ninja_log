@@ -1,0 +1,4 @@
+# ninja log v5
+0	6528	1726605280929019511	/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-39/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/src/cpu/ms_deform_attn_cpu.o	86d329484e8dfe5a
+1	22341	1726605296731232855	/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-39/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/src/vision.o	20c0093f63f0ef48
+0	24541	1726605298938262661	/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/build/temp.linux-x86_64-cpython-39/home/sebastian/Dropbox/PhD/projects/DINO/models/dino/ops/src/cuda/ms_deform_attn_cuda.o	6579ec1796c8b422

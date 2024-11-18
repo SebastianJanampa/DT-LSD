@@ -1,0 +1,9 @@
+logs*/
+data*/
+*.pth
+**/__pycache__/**
+.ipynb_checkpoints/
+*.so
+.vscode/
+tools*/
+*ipynb
