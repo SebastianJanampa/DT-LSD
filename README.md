@@ -5,16 +5,13 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 <img src="figures/model.png" alt="Model Architecture"/>
 
 ## TODO
-<details>
-<summary> see details </summary>
-
 - [x] Training
 - [x] Evaluation
 - [x] Upload source code
 - [ ] Upload weight 
 - [ ] Inference
 - [ ] Upload arxiv paper 
-</details>
+
 
 ## Results 
 <div align="center">
