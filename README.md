@@ -14,12 +14,13 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 - [] Upload weight 
 - [] Inference
 - [] Upload arxiv paper 
+</details>
 
 ## Results 
-<img src="figures/sAP_curve_wireframe.png" alt="sap_wireframe"/>
-<img src="figures/aph_curve_wireframe.png" alt="aph_wireframe"/>
-<img src="figures/sAP_curve_york.png" alt="sap_york"/>
-<img src="figures/aph_curve_york.png" alt="aph_york"/>
+<img src="figures/sAP_curve_wireframe.png" alt="sap_wireframe" style="width:22%; height:auto;"/>
+<img src="figures/aph_curve_wireframe.png" alt="aph_wireframe" style="width:22%; height:auto;"/>
+<img src="figures/sAP_curve_york.png" alt="sap_york" style="width:22%; height:auto;"/>
+<img src="figures/aph_curve_york.png" alt="aph_york" style="width:22%; height:auto;"/>
 
 |Dataset| sAP10 | sAP15 | APH | FH | FPS
 | --- | --- | --- | --- | --- | ---|
