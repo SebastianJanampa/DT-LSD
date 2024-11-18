@@ -17,13 +17,13 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 </details>
 
 ## Results 
-<p float="left">
-<img src="figures/sAP_curve_wireframe.png" alt="sap_wireframe" style="width:35%; height:auto;"/>
-<img src="figures/aph_curve_wireframe.png" alt="aph_wireframe" style="width:35%; height:auto;"/>
+<p float="center">
+<img src="figures/sAP_curve_wireframe.png" alt="sap_wireframe" style="width:30%; height:auto;"/>
+<img src="figures/aph_curve_wireframe.png" alt="aph_wireframe" style="width:30%; height:auto;"/>
 </p>
-<p float="left">
-<img src="figures/sAP_curve_york.png" alt="sap_york" style="width:35%; height:auto;"/>
-<img src="figures/aph_curve_york.png" alt="aph_york" style="width:35%; height:auto;"/>
+<p float="center">
+<img src="figures/sAP_curve_york.png" alt="sap_york" style="width:30%; height:auto;"/>
+<img src="figures/aph_curve_york.png" alt="aph_york" style="width:30%; height:auto;"/>
 </p>
 
 |Dataset| sAP10 | sAP15 | APH | FH | FPS
