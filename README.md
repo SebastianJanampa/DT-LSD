@@ -11,9 +11,9 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 - [x] Training
 - [x] Evaluation
 - [x] Upload source code
-- [] Upload weight 
-- [] Inference
-- [] Upload arxiv paper 
+- [ ] Upload weight 
+- [ ] Inference
+- [ ] Upload arxiv paper 
 </details>
 
 ## Results 
