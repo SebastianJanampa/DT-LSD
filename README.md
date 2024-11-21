@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2108.03144-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2411.13005)
+
 # DT-LSD: Deformable Transformer-based Line Segment Detection
  
 This repository contains the official implementation for **DT-LSD** (**D**eformable **T**ransformer-based **L**ine **S**egment **D**etector)
@@ -10,7 +12,7 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 - [x] Upload source code
 - [ ] Upload weight 
 - [ ] Inference
-- [ ] Upload arxiv paper 
+- [x] Upload arxiv paper 
 
 
 ## Results 
