@@ -10,8 +10,8 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 - [x] Training
 - [x] Evaluation
 - [x] Upload source code
-- [ ] Upload weight 
-- [ ] Inference
+- [x] Upload weight 
+- [x] Inference
 - [x] Upload arxiv paper 
 
 
@@ -46,7 +46,7 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 
 2. Install Pytorch and torchvision
 
-   Follow the instruction on https://pytorch.org/get-started/locally/.
+   Follow the instructions on https://pytorch.org/get-started/locally/.
    ```sh
    # an example:
    conda install -c pytorch pytorch torchvision
@@ -99,7 +99,7 @@ To reproduce our results, you need to process two datasets, [ShanghaiTech](https
     rm ./evaluation/data/york.tar.
     
 ## Pretraining weights
-Download the weights from DINO_SWIN_4scales_36_epochs from the [DINO repo](https://github.com/IDEA-Research/DINO/tree/main), and place it on the pretrain folder.
+Download the weights from DINO_SWIN_4scales_36_epochs from the [DINO repo](https://github.com/IDEA-Research/DINO/tree/main), and place it in the pretrain folder.
  
 ## Run
 
@@ -113,3 +113,14 @@ bash scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh
 bash scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh
 ```
 
+## Demo
+Download the DTLSD weights 
+
+```sh
+wget [scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh ](https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth)
+```
+If wget doesn't work, download it from this [link](https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth), and place it in the main folder. 
+Then run
+```sh
+python demo.py
+```
