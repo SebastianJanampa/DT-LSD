@@ -117,7 +117,7 @@ bash scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh
 Download the DTLSD weights 
 
 ```sh
-wget [scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh ](https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth)
+wget https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth
 ```
 If wget doesn't work, download it from this [link](https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth), and place it in the main folder. 
 Then run
