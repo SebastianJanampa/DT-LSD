@@ -116,11 +116,21 @@ bash scripts/train/DTLSD_SWIN_4_scales_24_epochs.sh
 ## Demo
 Download the DTLSD weights 
 
-```sh
+```
 wget https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth
 ```
 If wget doesn't work, download it from this [link](https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/DTLSD_checkpoint0035.pth), and place it in the main folder. 
 Then run
-```sh
+```
 python demo.py
+```
+
+## Citation 
+```
+@article{janampa2024dt,
+  title={DT-LSD: Deformable Transformer-based Line Segment Detection},
+  author={Janampa, Sebastian and Pattichis, Marios},
+  journal={arXiv preprint arXiv:2411.13005},
+  year={2024}
+}
 ```
