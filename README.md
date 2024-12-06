@@ -68,35 +68,19 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 
 ## Dataset
 
-To reproduce our results, you need to process two datasets, [ShanghaiTech](https://github.com/huangkuns/wireframe) and [YorkUrban](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/). Files located at ./helper/wireframe.py and ./helper/york.py are both modified based on the code from [L-CNN](https://github.com/zhou13/lcnn), which process the raw data from download.
+To reproduce our results, you need to process two datasets, [ShanghaiTech](https://github.com/huangkuns/wireframe) and [YorkUrban](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/). 
+```
+mkdir data
+cd data
+wget https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/wireframe_processed.zip
+wget https://github.com/SebastianJanampa/storage/releases/download/v1.0.0/york_processed.zip
 
-- ShanghaiTech Train Data
-    - To Download (modified based on from [L-CNN](https://github.com/zhou13/lcnn))
-        ```bash
-        cd data
-        bash ../helper/gdrive-download.sh 1BRkqyi5CKPQF6IYzj_dQxZFQl0OwbzOf wireframe_raw.tar.xz
-        tar xf wireframe_raw.tar.xz
-        rm wireframe_raw.tar.xz
-        python ../helper/wireframe.py ./wireframe_raw ./wireframe_processed
+unzip wireframe_processed.zip
+unzip york_processed.zip
 
-        ```
-- YorkUrban Train Data
-    - To Download  
-        ```bash
-        cd data
-        wget https://www.dropbox.com/sh/qgsh2audfi8aajd/AAAQrKM0wLe_LepwlC1rzFMxa/YorkUrbanDB.zip
-        unzip YorkUrbanDB.zip 
-        python ../helper/york.py ./YorkUrbanDB ./york_processed
-        
-        ```
-- Processed Evaluation Data
-    ```bash
-    bash ./helper/gdrive-download.sh 1T4_6Nb5r4yAXre3lf-zpmp3RbmyP1t9q ./evaluation/data/wireframe.tar.xz
-    bash ./helper/gdrive-download.sh 1ijOXv0Xw1IaNDtp1uBJt5Xb3mMj99Iw2 ./evaluation/data/york.tar.xz
-    tar -vxf ./evaluation/data/wireframe.tar.xz -C ./evaluation/data/.
-    tar -vxf ./evaluation/data/york.tar.xz -C ./evaluation/data/.
-    rm ./evaluation/data/wireframe.tar.xz
-    rm ./evaluation/data/york.tar.
+rm *zip
+cd ..
+```
     
 ## Pretraining weights
 Download the weights from DINO_SWIN_4scales_36_epochs from the [DINO repo](https://github.com/IDEA-Research/DINO/tree/main), and place it in the pretrain folder.
