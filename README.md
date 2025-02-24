@@ -14,6 +14,11 @@ This repository contains the official implementation for **DT-LSD** (**D**eforma
 - [x] Inference
 - [x] Upload arxiv paper 
 
+## 🚀 Updates
+- We have released a new model called [LINEA](https://github.com/SebastianJanampa/LINEA).
+  - LINEA presents a new attention mechanism called *line attention*.
+  - LINEA has four model sizes: n, s, and l.
+  - Try [LINEA hugging face space](https://huggingface.co/spaces/SebasJanampa/LINEA)
 
 ## Results 
 <div align="center">
