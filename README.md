@@ -116,10 +116,12 @@ python demo.py
 
 ## Citation 
 ```
-@article{janampa2024dt,
-  title={DT-LSD: Deformable Transformer-based Line Segment Detection},
-  author={Janampa, Sebastian and Pattichis, Marios},
-  journal={arXiv preprint arXiv:2411.13005},
-  year={2024}
+@InProceedings{Janampa_2025_WACV,
+    author    = {Janampa, Sebastian and Pattichis, Marios},
+    title     = {DT-LSD: Deformable Transformer-Based Line Segment Detection},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {3477-3486}
 }
 ```
